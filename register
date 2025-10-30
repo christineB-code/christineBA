@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - IQMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Register</h2>
+    <form id="registerForm">
+        <label>Username: <input type="text" name="username" required></label><br>
+        <label>Password: <input type="password" name="password" required></label><br>
+        <button type="submit">Register</button>
+    </form>
+    <p id="registerMsg"></p>
+    <script src="app.js"></script>
+</body>
+</html>
